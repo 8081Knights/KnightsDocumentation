@@ -14,7 +14,7 @@ This team was founded in 2024.
 
 ## What Is on This Website?
 
-This website is supposed to be a goldmine of knowledge for our team, as well as other teams. 
+This website is supposed to be a goldmine of knowledge for FIRST teams, as well as our team. 
 We will also use this site as a way to keep track of important information and help with team sustainability over time.
 
 ## Where Do I Start?
