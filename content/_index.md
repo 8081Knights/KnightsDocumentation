@@ -18,7 +18,7 @@ You have reached the wonderful wacky documentation of the Knights of the Lab Tab
 
 ## Team #8081
 
-Our FTC team #8081 has been around since 2007. There documentation is located [here]({{<ref "docs/ftc/">}})
+Our FTC team #8081 has been around since 2013. There documentation is located [here]({{<ref "docs/ftc/">}})
 
 # FRC
 
