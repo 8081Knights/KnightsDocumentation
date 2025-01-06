@@ -7,7 +7,7 @@ cascade:
   type: docs
 ---
 
-This is a test of documentation. You can go ahead an navigate to our FTC docs and FRC docs from the panel over in the side.
+This is a test of documentation. You can go ahead an navigate to our FTC docs and FRC docs from the panel over in the side (or in the menu on mobile).
 
 
 ## Hello! Code Snippet
