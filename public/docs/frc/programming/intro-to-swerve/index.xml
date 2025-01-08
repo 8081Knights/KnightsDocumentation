@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Knights of the Lab Table – Docs</title>
-    <link>http://localhost:1313/docs/</link>
-    <description>Recent content in Docs on Knights of the Lab Table</description>
+    <title>Knights of the Lab Table – Intro to Swerve</title>
+    <link>http://localhost:1313/docs/frc/programming/intro-to-swerve/</link>
+    <description>Recent content in Intro to Swerve on Knights of the Lab Table</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2024 09:03:23 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2025 09:29:18 -0700</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/frc/programming/intro-to-swerve/index.xml" rel="self" type="application/rss+xml" />
     
     
       
