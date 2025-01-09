@@ -1,7 +1,8 @@
 ---
 date: '2025-01-07T09:28:24-07:00'
-draft: true
+draft: false
 title: 'Intro'
+weight: 1
 ---
 
 
@@ -9,13 +10,14 @@ title: 'Intro'
 
 Serve drive is a fun one to explain, because it takes a long painful time to understand it, but once you do, you cannot go back.
 
-## Swerve from a hardware perspective.
+## Swerve From a Hardware Perspective
 
 Swerve is basically a shopping cart or dolly with spinning wheels. It's similar to one of those rotating chairs you sit on.
 
 The wheels have two parts: the part that orients or aligns the wheel, and the part that makes it spin or go.
 
-A good 
+A good example is the front wheel of a car, there is a "motor" that turns the wheel (not really, but using it as an example) to face any heading
+The other part of the wheel is the drive. The drive is the engine that actually propels the wheel.
 
-## Swerve from a mathematical perspective.
+(Yes I know the car geeks will only say that works for 4 wheel drive and that the heading can only go a few degreees, but it's hard to make a better example)
 

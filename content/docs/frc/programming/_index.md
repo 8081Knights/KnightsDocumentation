@@ -1,6 +1,6 @@
 ---
 date: '2025-01-07T09:29:06-07:00'
-draft: true
+draft: false
 title: 'Programming'
 ---
 
