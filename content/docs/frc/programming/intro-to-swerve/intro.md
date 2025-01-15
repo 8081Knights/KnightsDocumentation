@@ -8,7 +8,7 @@ weight: 1
 
 # What is swerve?
 
-Serve drive is a fun one to explain, because it takes a long painful time to understand it, but once you do, you cannot go back.
+Serve drive is a fun one to explain, because it takes a long time to fully understand it, but once you do, you cannot go back.
 
 ## Swerve From a Hardware Perspective
 
@@ -21,3 +21,6 @@ The other part of the wheel is the drive. The drive is the engine that actually 
 
 (Yes I know the car geeks will only say that works for 4 wheel drive and that the heading can only go a few degreees, but it's hard to make a better example)
 
+## Swerve Drive
+
+Swerve Drive is the implementation of these wheels to power/push your robot so it can drive fast, accurately, and forcefully.

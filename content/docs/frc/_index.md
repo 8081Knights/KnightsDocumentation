@@ -4,6 +4,9 @@ draft: false
 title: 'FRC'
 cascade:
   type: docs
+sidebar:
+  open:
+    true
 ---
 
 ## What is Our FRC Team?

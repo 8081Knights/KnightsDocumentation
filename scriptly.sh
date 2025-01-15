@@ -2,16 +2,24 @@
 
 function create {
   # Create a file with hugo with the given path.
-  echo "Creating a new web page..."
-  hugo new content $2
+  echo "Creating a new web page... No can do"
+
 }
 
 function push {
   # Push changes to the remote repository
   # also export and zip the folder
   echo "Pushing changes to the remote repository..."
+  hugo build
+  rm knights.tar.bz
 
+  
   tar -cjvf knights.tar.bz ./public/*
+  git add .
+
+  git commit -am "Auto Generated commit to Push to Website"
+  git push
+
 }
 
 function run {
