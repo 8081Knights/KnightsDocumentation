@@ -29,8 +29,17 @@ function run {
   
 }
 
+function prepare {
+  hugo build
+  rm knights.tar.bz
+
+  
+  tar -cjvf knights.tar.bz ./public/*
+}
+
 case $1 in
   create) create ;;
   push) push ;;
   run) run ;;
+  prepare) prepare ;;
 esac
