@@ -62,5 +62,5 @@ markup:
 sitemap:
   changefreq: daily
   filename: sitemap.xml
-  disable: true
+  disable: false
   priority: 0.8
