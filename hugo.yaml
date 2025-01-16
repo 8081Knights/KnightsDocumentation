@@ -58,9 +58,3 @@ markup:
       renderer:
         unsafe: true
 
-
-sitemap:
-  changefreq: daily
-  filename: sitemap.xml
-  disable: false
-  priority: 0.8
