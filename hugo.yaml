@@ -57,3 +57,10 @@ markup:
   goldmark:
       renderer:
         unsafe: true
+
+
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  disable: true
+  priority: 0.8

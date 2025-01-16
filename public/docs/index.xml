@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knights of the Lab Table – Docs</title>
-    <link>http://localhost:1313/docs/</link>
+    <link>https://knightsofthelabtable.org/docs/</link>
     <description>Recent content in Docs on Knights of the Lab Table</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2024 09:03:23 -0700</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://knightsofthelabtable.org/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Intro</title>
-      <link>http://localhost:1313/docs/frc/programming/intro-to-swerve/intro/</link>
+      <link>https://knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/intro/</link>
       <pubDate>Tue, 07 Jan 2025 09:28:24 -0700</pubDate>
       
-      <guid>http://localhost:1313/docs/frc/programming/intro-to-swerve/intro/</guid>
+      <guid>https://knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/intro/</guid>
       <description>
         
         
@@ -33,54 +33,6 @@ The other part of the wheel is the drive. The drive is the engine that actually 
 &lt;p&gt;(Yes I know the car geeks will only say that works for 4 wheel drive and that the heading can only go a few degreees, but it&amp;rsquo;s hard to make a better example)&lt;/p&gt;
 &lt;h2&gt;Swerve Drive&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;swerve-drive&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#swerve-drive&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Swerve Drive is the implementation of these wheels to power/push your robot so it can drive fast, accurately, and forcefully.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Looking at Swerve</title>
-      <link>http://localhost:1313/docs/frc/programming/intro-to-swerve/looking-at-swerve/</link>
-      <pubDate>Wed, 08 Jan 2025 21:02:07 -0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/frc/programming/intro-to-swerve/looking-at-swerve/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Swerve From an Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;swerve-from-an-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#swerve-from-an-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Swerve is a little complex at first, but to implement it takes a lot of thinking
-(trust me, I&amp;rsquo;ll try to make it easy, so you don&amp;rsquo;t have to have a few existential crisis as you program it for the sixth time)&lt;/p&gt;
-&lt;p&gt;Sweve drive has to start with the basics: you have 4 wheels. The first thing you need to do is understand how they work.&lt;/p&gt;
-&lt;p&gt;Each of you for wheels has some manner that they need to go to push your robot, and there are &lt;em&gt;2&lt;/em&gt; different factors that show how they work. These are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt; - How fast you want your wheel to go. This is a number between 0 and 1, where 0 is not moving at all and 1 is maximum speed.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Heading&lt;/strong&gt; - The direction the wheel needs to go.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
-  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
-
-  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;span style=&#34;font-size: 1.2rem;&#34;&gt;Heading: the angle that something is facing. It&amp;rsquo;s important because it is key to direction. Think of it as the angle something is at.&lt;/span&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Each wheel needs to go somewhere when we want the robot to move so we need to look at how we control the robot.&lt;/p&gt;
-&lt;h2&gt;Controlling the Robot&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;controlling-the-robot&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#controlling-the-robot&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We use a controller to tell the robot where to go. The first thing we need to do is understand how swerve control works.&lt;/p&gt;
-&lt;p&gt;Our controllers have two joysticks that can be used to control the robot.&lt;/p&gt;
-&lt;p&gt;
-    &lt;img src=&#34;../controllerEdited.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Note that the joystick with the blue arrows has them pointing in all directions. This represents where you want the robot to go to.
-The other joystick is for controlling the heading of the robot.&lt;/p&gt;
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
-  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
-
-  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;The joystick with the blue is on the left and controlls the position of the robot. Swerve enables the robot to go in any direction,
-including sideways and forward, like a drone or helicopter.&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The purple arrows represent the manner that a person would want to turn the robot.&lt;/p&gt;
 
       </description>
     </item>

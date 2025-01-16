@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knights of the Lab Table – FTC</title>
-    <link>http://localhost:1313/docs/ftc/</link>
+    <link>https://knightsofthelabtable.org/docs/ftc/</link>
     <description>Recent content in FTC on Knights of the Lab Table</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 13:55:15 -0700</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/ftc/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://knightsofthelabtable.org/docs/ftc/index.xml" rel="self" type="application/rss+xml" />
     
     
       

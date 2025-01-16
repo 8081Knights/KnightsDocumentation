@@ -30,7 +30,7 @@ We use a controller to tell the robot where to go. The first thing we need to do
 
 Our controllers have two joysticks that can be used to control the robot.
 
-![](controllerEdited.png)
+![Controller with arrows on image for examples](controllerEdited.png)
 
 Note that the joystick with the blue arrows has them pointing in all directions. This represents where you want the robot to go to.
 The other joystick is for controlling the heading of the robot.
