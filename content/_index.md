@@ -18,12 +18,12 @@ You have reached the wonderful wacky documentation of the Knights of the Lab Tab
 
 ## Team #8081
 
-Our FTC team #8081 has been around since 2013. There documentation is located [here]({{<ref "docs/ftc/">}})
+Our FTC team #8081 has been around since 2013. Our documentation is located [here]({{<ref "docs/ftc/">}})
 
 # FRC
 
 ## Team #9777
 
-The Knights of the Lab Table are a team from Gilbert Christian High School. Our FRC team #9777 has been around since 2024. There documentation is located [here]({{<ref "docs/frc/">}})
+The Knights of the Lab Table are a team from Gilbert Christian High School. Our FRC team #9777 has been around since 2024. Their documentation is located [here]({{<ref "docs/frc/">}})
 
-This website is the main documentation of the FRC team and is an extension on #8081.
+This website is the main documentation of the FRC team and is an extension of #8081.
