@@ -1,6 +1,6 @@
 ---
 date: 2025-01-08T21:02:07-07:00
-draft: true
+draft: false
 title: Looking at Swerve
 weight: 2
 ---
@@ -46,3 +46,4 @@ The control systems are intuitive and the robot's positioning should look like t
 
 ![Robot with alignment of controls from previous image](robotControlDirections.png)
 
+Next we'll look at breaking the overall breakdown of swerve.
