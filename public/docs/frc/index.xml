@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knights of the Lab Table – FRC</title>
-    <link>https://docs.knightsofthelabtable.org/docs/frc/</link>
+    <link>http://localhost:1313/docs/frc/</link>
     <description>Recent content in FRC on Knights of the Lab Table</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 14:16:01 -0700</lastBuildDate>
     
-	  <atom:link href="https://docs.knightsofthelabtable.org/docs/frc/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/frc/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Programming</title>
-      <link>https://docs.knightsofthelabtable.org/docs/frc/programming/</link>
+      <link>http://localhost:1313/docs/frc/programming/</link>
       <pubDate>Tue, 07 Jan 2025 09:29:06 -0700</pubDate>
       
-      <guid>https://docs.knightsofthelabtable.org/docs/frc/programming/</guid>
+      <guid>http://localhost:1313/docs/frc/programming/</guid>
       <description>
         
         
-        &lt;p&gt;You have reached the page for FRC programming Docs. Check out our &lt;a href=&#34;https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/&#34; &gt;intro to swerve&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;You have reached the page for FRC programming Docs. Check out our &lt;a href=&#34;http://localhost:1313/docs/frc/programming/intro-to-swerve/&#34; &gt;intro to swerve&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

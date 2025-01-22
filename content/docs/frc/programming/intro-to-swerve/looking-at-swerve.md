@@ -1,7 +1,7 @@
 ---
-date: '2025-01-08T21:02:07-07:00'
+date: 2025-01-08T21:02:07-07:00
 draft: true
-title: 'Looking at Swerve'
+title: Looking at Swerve
 weight: 2
 ---
 
@@ -41,4 +41,8 @@ including sideways and forward, like a drone or helicopter.
 {{</callout>}}
 
 The purple arrows represent the manner that a person would want to turn the robot.
+
+The control systems are intuitive and the robot's positioning should look like this:
+
+![Robot with alignment of controls from previous image](robotControlDirections.png)
 

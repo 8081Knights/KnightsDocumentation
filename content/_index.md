@@ -1,7 +1,7 @@
 ---
-date: '2024-12-11T09:03:23-07:00'
+date: 2024-12-11T09:03:23-07:00
 draft: false
-title: 'Main'
+title: Main
 ---
 
 
