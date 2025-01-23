@@ -31,12 +31,14 @@ params:
       link: /
       width: 40
       height: 40
-
   footer:
     enable: true
     displayCopyright: true
     displayPoweredBy: false
     width: normal
+  theme: 
+    default: dark
+    displayToggle: true
 
 
 markup:

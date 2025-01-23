@@ -6,7 +6,7 @@ weight: 2
 ---
 
 
-## Swerve From an Overview
+## swerve Overview
 
 Swerve is a little complex at first, but to implement it takes a lot of thinking 
 (trust me, I'll try to make it easy, so you don't have to have a few existential crisis as you program it for the sixth time)
@@ -19,7 +19,7 @@ Each of you for wheels has some manner that they need to go to push your robot, 
 - **Heading** - The direction the wheel needs to go.
 
 {{<callout type="info">}}
-<span style="font-size: 1.2rem;">Heading: the angle that something is facing. It's important because it is key to direction. Think of it as the angle something is at.</span>
+Heading: the angle that something is facing. It's important because it is key to direction. Think of it as the angle something is at.
 {{</callout>}}
 
 Each wheel needs to go somewhere when we want the robot to move so we need to look at how we control the robot.
@@ -47,3 +47,10 @@ The control systems are intuitive and the robot's positioning should look like t
 ![Robot with alignment of controls from previous image](robotControlDirections.png)
 
 Next we'll look at breaking the overall breakdown of swerve.
+
+
+{{<callout emoji="🗒️">}}
+We use the "PS4" controllers (console controllers) as most people call them. This is intentional, and we recognize some teams use joysticks.
+We are using these because everyone has one of these at home, you can find them for very cheap at your local store,
+and translating it to using the joysticks isn't too difficult.
+{{</callout>}}

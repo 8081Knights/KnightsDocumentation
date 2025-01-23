@@ -2,6 +2,18 @@
     font-family: "Montserrat", sans-serif;
   }
 
+
+
+
+  .gradient-text {
+    background: linear-gradient(to right, green, blue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+
 /* Background */
 .bg {
     color: #93a1a1;
