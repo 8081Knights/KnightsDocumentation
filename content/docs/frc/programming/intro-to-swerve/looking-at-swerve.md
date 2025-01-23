@@ -9,11 +9,11 @@ weight: 2
 ## Swerve Overview
 
 Swerve is a little complex at first, but to implement it takes a lot of thinking 
-(trust me, I'll try to make it easy, so you don't have to have a few existential crisis as you program it for the sixth time)
+(trust me, I'll try to make it easy, so you don't have to have a few existential crises as you program it for the sixth time)
 
 Sweve drive has to start with the basics: you have 4 wheels. The first thing you need to do is understand how they work.
 
-Each of you for wheels has some manner that they need to go to push your robot, and there are *2* different factors that show how they work. These are:
+Each of your four wheels has some manner that they need to go to push your robot, and there are *2* different factors that show how they work. These are:
 
 - **Speed** - How fast you want your wheel to go. This is a number between 0 and 1, where 0 is not moving at all and 1 is maximum speed.
 - **Heading** - The direction the wheel needs to go.
