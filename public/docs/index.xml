@@ -108,15 +108,10 @@ and translating it to using the joysticks isn&amp;rsquo;t too difficult.&lt;/div
       <description>
         
         
-        &lt;h2&gt;Sweve Controller Setup&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sweve-controller-setup&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#sweve-controller-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Remember the controller?&lt;/p&gt;
-&lt;p&gt;
-    &lt;img src=&#34;../controllerEdited.png&#34; alt=&#34;Controller with arrows for reference&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Well, these value are incredibly important when programming sweve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.&lt;/p&gt;
-&lt;h3&gt;Programming Setup&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;programming-setup&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#programming-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To set up your programming environment you need to download the &lt;a href=&#34;https://github.com/wpilibsuite/allwpilib/releases/latest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wpilib suite&lt;/a&gt; from GitHub, and if you need, you can look through the &lt;a href=&#34;https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official website dowload&lt;/a&gt; (which redirects to the previous link) that gives a bit more info if you encounter problems.&lt;/p&gt;
+        &lt;h3&gt;Programming Setup&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;programming-setup&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#programming-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To set up your programming environment you need to download the &lt;a href=&#34;https://github.com/wpilibsuite/allwpilib/releases/latest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wpilib suite&lt;/a&gt; from GitHub, and if you need, you can look through the &lt;a href=&#34;https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official website download&lt;/a&gt; (which redirects to the previous link) that gives a bit more info if you encounter problems.&lt;/p&gt;
 &lt;h3&gt;Project Setup&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;project-setup&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#project-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Once you have the stuff installed and are ready to &lt;span class=&#34;gradient-text&#34;&gt;Program Sweve!!!&lt;/span&gt;&lt;/p&gt;
+    &lt;a href=&#34;#project-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Once you have the stuff installed and are ready to &lt;span class=&#34;gradient-text&#34;&gt;Program Swerve!!!&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You should be able to &lt;a href=&#34;https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java-python.html#create-java-cpp-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;make a new project&lt;/a&gt; and select &lt;code&gt;template&lt;/code&gt; then &lt;code&gt;java&lt;/code&gt; then &lt;code&gt;Timed Robot&lt;/code&gt; (don&amp;rsquo;t select the advanced one).&lt;/p&gt;
 &lt;p&gt;You should have put the project in a folder (like Documents) and put in a team number (just put our team number, 9777 if you don&amp;rsquo;t have a team number yet,
 it&amp;rsquo;s not too important for simple development).&lt;/p&gt;
@@ -125,6 +120,25 @@ it&amp;rsquo;s not too important for simple development).&lt;/p&gt;
 &lt;p&gt;As you can see, I have named the project &lt;code&gt;ExampleSwerveDrive&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;We will start programming everything on the next page!!!&lt;/p&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Swerve Math</title>
+      <link>https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/swerve-math/</link>
+      <pubDate>Thu, 23 Jan 2025 15:46:49 -0700</pubDate>
+      
+      <guid>https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/swerve-math/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Swerve Math&lt;/h1&gt;&lt;h2&gt;Swerve Controller Setup&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;swerve-controller-setup&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#swerve-controller-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Remember the controller?&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;../controllerEdited.png&#34; alt=&#34;Controller with arrows for reference&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Well, these value are incredibly important when programming swerve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.&lt;/p&gt;
+&lt;h2&gt;Swerve Preliminary Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;swerve-preliminary-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#swerve-preliminary-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
       </description>
     </item>
     
