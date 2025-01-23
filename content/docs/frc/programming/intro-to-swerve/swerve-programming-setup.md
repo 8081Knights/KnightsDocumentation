@@ -4,7 +4,6 @@ draft: false
 title: 'Swerve Programming Setup'
 weight: 3
 ---
-# Swerve From a Mathematical Perspective
 
 ## Sweve Controller Setup
 
