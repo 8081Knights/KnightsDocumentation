@@ -6,7 +6,7 @@
 
 
   .gradient-text {
-    background: linear-gradient(to right, green, blue);
+    background: linear-gradient(to right, rgb(255, 117, 214), rgb(125, 50, 255));
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;

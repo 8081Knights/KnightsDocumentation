@@ -1,6 +1,6 @@
 ---
 date: '2025-01-23T08:53:57-07:00'
-draft: true
+draft: false
 title: 'Swerve Programming Setup'
 weight: 3
 ---
@@ -23,3 +23,19 @@ To set up your programming environment you need to download the [wpilib suite](h
 ### Project Setup
 
 Once you have the stuff installed and are ready to <span class="gradient-text">Program Sweve!!!</span>
+
+
+You should be able to [make a new project](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java-python.html#create-java-cpp-project) and select `template` then `java` then `Timed Robot` (don't select the advanced one).
+
+You should have put the project in a folder (like Documents) and put in a team number (just put our team number, 9777 if you don't have a team number yet,
+it's not too important for simple development).
+
+The code now should now be generated and in the left pane you should see this in the side pane:
+
+![[ExampleCodeStartup.png]]
+
+As you can see, I have named the project `ExampleSwerveDrive`. 
+
+We will start programming everything on the next page!!!
+
+

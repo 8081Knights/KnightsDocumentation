@@ -6,7 +6,7 @@ weight: 2
 ---
 
 
-## swerve Overview
+## Swerve Overview
 
 Swerve is a little complex at first, but to implement it takes a lot of thinking 
 (trust me, I'll try to make it easy, so you don't have to have a few existential crisis as you program it for the sixth time)
@@ -54,3 +54,5 @@ We use the "PS4" controllers (console controllers) as most people call them. Thi
 We are using these because everyone has one of these at home, you can find them for very cheap at your local store,
 and translating it to using the joysticks isn't too difficult.
 {{</callout>}}
+
+

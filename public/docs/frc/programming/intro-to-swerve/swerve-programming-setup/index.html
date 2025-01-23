@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en"><head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex, nofollow" />
+  <meta name="robots" content="index, follow" />
   <link rel="icon shortcut" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
@@ -13,7 +13,7 @@
 <title>Swerve Programming Setup – Knights of the Lab Table</title>
   <meta name="description" content="Swerve From a Mathematical PerspectiveSweve Controller Setup Remember the controller?
 Well, these value are incredibly important when programming sweve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.
-Programming Setup To set up your programming environment you need to download the wpilib suite from GitHub, and if you need, you can look through the official website dowload (which redirects to the previous link) that gives a bit more info if you encounter problems." /><link rel="canonical" href="http://localhost:1313/docs/frc/programming/intro-to-swerve/swerve-programming-setup/" itemprop="url" />
+Programming Setup To set up your programming environment you need to download the wpilib suite from GitHub, and if you need, you can look through the official website dowload (which redirects to the previous link) that gives a bit more info if you encounter problems." /><link rel="canonical" href="https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/swerve-programming-setup/" itemprop="url" />
 
 <meta property="og:title" content="Swerve Programming Setup" />
 <meta property="og:description" content="Swerve From a Mathematical PerspectiveSweve Controller Setup
@@ -24,7 +24,7 @@ Well, these value are incredibly important when programming sweve. We went over 
 Programming Setup
     To set up your programming environment you need to download the wpilib suite from GitHub, and if you need, you can look through the official website dowload (which redirects to the previous link) that gives a bit more info if you encounter problems." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/frc/programming/intro-to-swerve/swerve-programming-setup/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/swerve-programming-setup/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2025-01-23T08:53:57-07:00" />
 <meta property="article:modified_time" content="2025-01-23T08:53:57-07:00" />
 
@@ -34,18 +34,19 @@ Well, these value are incredibly important when programming sweve. We went over 
 Programming Setup To set up your programming environment you need to download the wpilib suite from GitHub, and if you need, you can look through the official website dowload (which redirects to the previous link) that gives a bit more info if you encounter problems.">
   <meta itemprop="datePublished" content="2025-01-23T08:53:57-07:00">
   <meta itemprop="dateModified" content="2025-01-23T08:53:57-07:00">
-  <meta itemprop="wordCount" content="102">
+  <meta itemprop="wordCount" content="202">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Swerve Programming Setup">
   <meta name="twitter:description" content="Swerve From a Mathematical PerspectiveSweve Controller Setup Remember the controller?
 Well, these value are incredibly important when programming sweve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.
 Programming Setup To set up your programming environment you need to download the wpilib suite from GitHub, and if you need, you can look through the official website dowload (which redirects to the previous link) that gives a bit more info if you encounter problems.">
 
-    <link href="/css/compiled/main.css" rel="stylesheet" />
+    <link rel="preload" href="/css/compiled/main.min.0d60cbb74d97ccaea83c3ea6d973c5961d69642b38588069a503bc04e284cbc7.css" as="style" integrity="sha256-DWDLt02XzK6oPD6m2XPFlh1pZCs4WIBppQO8BOKEy8c=" />
+    <link href="/css/compiled/main.min.0d60cbb74d97ccaea83c3ea6d973c5961d69642b38588069a503bc04e284cbc7.css" rel="stylesheet" integrity="sha256-DWDLt02XzK6oPD6m2XPFlh1pZCs4WIBppQO8BOKEy8c=" />
 
 
 
-  <link href="/css/custom.css" rel="stylesheet" />
+  <link href="/css/custom.min.e98e6e2b7507319aa864f48be3c45569ea67645664fbc60b45700cdfe86ac1d6.css" rel="stylesheet" integrity="sha256-6Y5uK3UHMZqoZPSL48RVaepnZFZk&#43;8YLRXAM3&#43;hqwdY=" />
 
 
   <script>
@@ -383,6 +384,13 @@ Programming Setup To set up your programming environment you need to download th
     <a href="#programming-setup" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>To set up your programming environment you need to download the <a href="https://github.com/wpilibsuite/allwpilib/releases/latest" target="_blank" rel="noopener">wpilib suite</a> from GitHub, and if you need, you can look through the <a href="https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html" target="_blank" rel="noopener">official website dowload</a> (which redirects to the previous link) that gives a bit more info if you encounter problems.</p>
 <h3>Project Setup<span class="hx-absolute -hx-mt-20" id="project-setup"></span>
     <a href="#project-setup" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Once you have the stuff installed and are ready to <span class="gradient-text">Program Sweve!!!</span></p>
+<p>You should be able to <a href="https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java-python.html#create-java-cpp-project" target="_blank" rel="noopener">make a new project</a> and select <code>template</code> then <code>java</code> then <code>Timed Robot</code> (don&rsquo;t select the advanced one).</p>
+<p>You should have put the project in a folder (like Documents) and put in a team number (just put our team number, 9777 if you don&rsquo;t have a team number yet,
+it&rsquo;s not too important for simple development).</p>
+<p>The code now should now be generated and in the left pane you should see this in the side pane:</p>
+<p>![[ExampleCodeStartup.png]]</p>
+<p>As you can see, I have named the project <code>ExampleSwerveDrive</code>.</p>
+<p>We will start programming everything on the next page!!!</p>
 
         </div>
         <div class="hx-mt-16"></div>
@@ -409,11 +417,11 @@ Programming Setup To set up your programming environment you need to download th
         <div class="hx-flex hx-w-full hx-flex-col hx-items-center sm:hx-items-start"><div class="hx-mt-6 hx-text-xs">© 2025  Knights of the Lab Table.</div></div>
       </div></footer>
     
-    <script defer src="/js/main.js" integrity=""></script>
+    <script defer src="/js/main.min.a6eb101c76cd824b14b5bb9fa54e34e4b6414edb5e56347f59c358ba151e0432.js" integrity="sha256-pusQHHbNgksUtbufpU405LZBTtteVjR/WcNYuhUeBDI="></script>
 
 
 <script defer src="/lib/flexsearch/flexsearch.bundle.min.0425860527cc9968f9f049421c7a56b39327d475e2e3a8f550416be3a9134327.js" integrity="sha256-BCWGBSfMmWj58ElCHHpWs5Mn1HXi46j1UEFr46kTQyc="></script>
-    <script defer src="/en.search.js" integrity=""></script>
+    <script defer src="/en.search.min.4a72af14c5044971882cecddc91b1d5027c5a1ce9145e85eae7ee5145e971777.js" integrity="sha256-SnKvFMUESXGILOzdyRsdUCfFoc6RRehern7lFF6XF3c="></script>
 
 
   </body>

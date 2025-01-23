@@ -8,7 +8,7 @@ weight: 1
 
 # What is swerve?
 
-Serve drive is a fun one to explain, because it takes a long time to fully understand it, but once you do, you cannot go back.
+Swerve drive is a fun one to explain, because it takes a long time to fully understand it, but once you do, you cannot go back.
 
 ## Swerve From a Hardware Perspective
 
