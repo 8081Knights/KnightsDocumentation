@@ -32,7 +32,7 @@ Project Setup Once you have the stuff installed and are ready to Program Swerve!
 You should be able to make a new project and select template then java then Timed Robot (don’t select the advanced one).">
   <meta itemprop="datePublished" content="2025-01-23T08:53:57-07:00">
   <meta itemprop="dateModified" content="2025-01-23T08:53:57-07:00">
-  <meta itemprop="wordCount" content="159">
+  <meta itemprop="wordCount" content="301">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Swerve Programming Setup">
   <meta name="twitter:description" content="Programming Setup To set up your programming environment you need to download the wpilib suite from GitHub, and if you need, you can look through the official website download (which redirects to the previous link) that gives a bit more info if you encounter problems.
@@ -225,6 +225,12 @@ You should be able to make a new project and select template then java then Time
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
               ></a>
             </li>
+          <li>
+              <a
+                href="#setup-for-this-tutorial"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Setup for This Tutorial</a>
+            </li>
           </ul>
   
               
@@ -352,6 +358,10 @@ You should be able to make a new project and select template then java then Time
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
         <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#project-setup">Project Setup
         </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#setup-for-this-tutorial">Setup for This Tutorial
+        </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
         <button aria-hidden="true" id="backToTop" onClick="scrollUp();" class="hx-transition-all hx-duration-75 hx-opacity-0 hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50">
@@ -393,9 +403,33 @@ You should be able to make a new project and select template then java then Time
 <p>You should have put the project in a folder (like Documents) and put in a team number (just put our team number, 9777 if you don&rsquo;t have a team number yet,
 it&rsquo;s not too important for simple development).</p>
 <p>The code now should now be generated and in the left pane you should see this in the side pane:</p>
-<p>![[ExampleCodeStartup.png]]</p>
+<p>
+    <img src="../ExampleCodeStartup.png" alt="Image of what you should see in VS Code" loading="lazy" /></p>
 <p>As you can see, I have named the project <code>ExampleSwerveDrive</code>.</p>
-<p>We will start programming everything on the next page!!!</p>
+<p>Your code is located inside the <code>src/main/java/frc/robot</code> folder</p>
+<p>
+    <img src="../codeLocationMainFiles.png" alt="an example of where the code is" loading="lazy" /></p>
+<h2>Setup for This Tutorial<span class="hx-absolute -hx-mt-20" id="setup-for-this-tutorial"></span>
+    <a href="#setup-for-this-tutorial" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>One should make three new files, and one new folder.</p>
+<ol>
+<li>Right click on the <code>src/main/java/frc/robot</code> and click new file. When a text box appears, type in <code>HardwareMappings.java</code>. (Don&rsquo;t worry about the text that appears for the file)</li>
+<li>Right click on the <code>src/main/java/frc/robot</code> and click the new folder and name it <code>teleopswerve</code>.</li>
+<li>Right click on the <code>src/main/java/frc/robot/teleopswerve</code> folder and make 2 new files (like in step 1) named <code>SwerveModule.java</code> and <code>SwerveDrive.java</code>.</li>
+<li>Now you&rsquo;re done making all the files you&rsquo;ll need. The only thing left is the hit <span class="gradient-text"><em>Ctrl+S</em></span>
+for all the rest of the files.</li>
+</ol>
+<p>You&rsquo;re setup should look like something like this.</p>
+<p>
+    <img src="../setupExample.png" alt="example of the finished setup" loading="lazy" /></p>
+<div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200">
+  <div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2"><div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">ℹ️</div></div>
+
+  <div class="hx-w-full hx-min-w-0 hx-leading-7">
+    <div class="hx-mt-6 hx-leading-7 first:hx-mt-0">The white dot next to the filename in the editor means that the file is not saved, you can just select the file, and once it loads in the
+exitor, you can type <em><em>Ctrl+S</em></em> to save it</div>
+  </div>
+</div>
+
 
         </div>
         <div class="hx-mt-16"></div>

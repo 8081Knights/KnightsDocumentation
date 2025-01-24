@@ -22,10 +22,36 @@ it's not too important for simple development).
 
 The code now should now be generated and in the left pane you should see this in the side pane:
 
-![[ExampleCodeStartup.png]]
+![Image of what you should see in VS Code](ExampleCodeStartup.png)
 
 As you can see, I have named the project `ExampleSwerveDrive`. 
 
-We will start programming everything on the next page!!!
+
+Your code is located inside the `src/main/java/frc/robot` folder
 
 
+![an example of where the code is](codeLocationMainFiles.png)
+
+
+## Setup for This Tutorial
+
+
+One should make three new files, and one new folder.
+
+1. Right click on the `src/main/java/frc/robot` and click new file. When a text box appears, type in `HardwareMappings.java`. (Don't worry about the text that appears for the file)
+2. Right click on the `src/main/java/frc/robot` and click the new folder and name it `teleopswerve`.
+3. Right click on the `src/main/java/frc/robot/teleopswerve` folder and make 2 new files (like in step 1) named `SwerveModule.java` and `SwerveDrive.java`.
+4. Now you're done making all the files you'll need. The only thing left is the hit <span class="gradient-text">*Ctrl+S*</span>
+for all the rest of the files.
+
+
+You're setup should look like something like this.
+
+
+![example of the finished setup](setupExample.png)
+
+{{<callout type="info">}}
+The white dot next to the filename in the editor means that the file is not saved, you can just select the file, and once it loads in the 
+exitor, you can type _*Ctrl+S*_ to save it
+
+{{</callout>}}

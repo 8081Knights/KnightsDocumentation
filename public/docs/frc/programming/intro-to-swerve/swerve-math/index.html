@@ -13,7 +13,7 @@
 <title>Swerve Math – Knights of the Lab Table</title>
   <meta name="description" content="Swerve MathSwerve Controller Setup Remember the controller?
 Well, these value are incredibly important when programming swerve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.
-Swerve Preliminary Steps " /><link rel="canonical" href="https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/swerve-math/" itemprop="url" />
+Swerve Preliminary Steps The first steps of swerve involve grabbing the values from your controller and using them to be able to put them into your program" /><link rel="canonical" href="https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/swerve-math/" itemprop="url" />
 
 <meta property="og:title" content="Swerve Math" />
 <meta property="og:description" content="Swerve MathSwerve Controller Setup
@@ -22,7 +22,7 @@ Swerve Preliminary Steps " /><link rel="canonical" href="https://docs.knightsoft
     
 Well, these value are incredibly important when programming swerve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.
 Swerve Preliminary Steps
-    " />
+    The first steps of swerve involve grabbing the values from your controller and using them to be able to put them into your program" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://docs.knightsofthelabtable.org/docs/frc/programming/intro-to-swerve/swerve-math/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2025-01-23T15:46:49-07:00" />
@@ -31,15 +31,15 @@ Swerve Preliminary Steps
   <meta itemprop="name" content="Swerve Math">
   <meta itemprop="description" content="Swerve MathSwerve Controller Setup Remember the controller?
 Well, these value are incredibly important when programming swerve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.
-Swerve Preliminary Steps">
+Swerve Preliminary Steps The first steps of swerve involve grabbing the values from your controller and using them to be able to put them into your program">
   <meta itemprop="datePublished" content="2025-01-23T15:46:49-07:00">
   <meta itemprop="dateModified" content="2025-01-23T15:46:49-07:00">
-  <meta itemprop="wordCount" content="43">
+  <meta itemprop="wordCount" content="129">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Swerve Math">
   <meta name="twitter:description" content="Swerve MathSwerve Controller Setup Remember the controller?
 Well, these value are incredibly important when programming swerve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.
-Swerve Preliminary Steps">
+Swerve Preliminary Steps The first steps of swerve involve grabbing the values from your controller and using them to be able to put them into your program">
 
     <link rel="preload" href="/css/compiled/main.min.0d60cbb74d97ccaea83c3ea6d973c5961d69642b38588069a503bc04e284cbc7.css" as="style" integrity="sha256-DWDLt02XzK6oPD6m2XPFlh1pZCs4WIBppQO8BOKEy8c=" />
     <link href="/css/compiled/main.min.0d60cbb74d97ccaea83c3ea6d973c5961d69642b38588069a503bc04e284cbc7.css" rel="stylesheet" integrity="sha256-DWDLt02XzK6oPD6m2XPFlh1pZCs4WIBppQO8BOKEy8c=" />
@@ -399,7 +399,52 @@ Swerve Preliminary Steps">
     <img src="../controllerEdited.png" alt="Controller with arrows for reference" loading="lazy" /></p>
 <p>Well, these value are incredibly important when programming swerve. We went over what values should translate to what in swerve, but grabbing these values is key and is something that we should note.</p>
 <h2>Swerve Preliminary Steps<span class="hx-absolute -hx-mt-20" id="swerve-preliminary-steps"></span>
-    <a href="#swerve-preliminary-steps" class="subheading-anchor" aria-label="Permalink for this section"></a></h2>
+    <a href="#swerve-preliminary-steps" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The first steps of swerve involve grabbing the values from your controller and using them to be able to put them into your program</p>
+<p>The first thing it go grab the x and y from the controller.</p>
+<p>In the beginning of the declaration of your code you should put</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">XboxController</span><span class="w"> </span><span class="n">controller</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">XboxController</span><span class="p">(</span><span class="n">0</span><span class="p">);</span></span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+<p>The controller&rsquo;s state for x and y can be grabbed using the</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="n">controller</span><span class="p">.</span><span class="na">getLeftX</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">-</span><span class="n">controller</span><span class="p">.</span><span class="na">getLeftY</span><span class="p">();</span></span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+<p>To start with this I reccomend putting</p>
+
         </div>
         <div class="hx-mt-16"></div>
         <div class="hx-mb-8 hx-flex hx-items-center hx-border-t hx-pt-8 dark:hx-border-neutral-800 contrast-more:hx-border-neutral-400 dark:contrast-more:hx-border-neutral-400 print:hx-hidden"><a
